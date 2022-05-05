@@ -31,7 +31,6 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.lstCanciones = new System.Windows.Forms.ListBox();
-            this.Reproductor = new AxWMPLib.AxWindowsMediaPlayer();
             this.mtrackEstatus = new XComponent.SliderBar.MACTrackBar();
             this.mtrackVolumen = new XComponent.SliderBar.MACTrackBar();
             this.lblCancion = new System.Windows.Forms.Label();
@@ -40,11 +39,13 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnAdjuntar = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            ((System.ComponentModel.ISupportInitialize)(this.Reproductor)).BeginInit();
+            this.Reproductor = new AxWMPLib.AxWindowsMediaPlayer();
+            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.btnStop)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnPlay)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnAdjuntar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Reproductor)).BeginInit();
             this.SuspendLayout();
             // 
             // lstCanciones
@@ -52,19 +53,9 @@
             this.lstCanciones.FormattingEnabled = true;
             this.lstCanciones.Location = new System.Drawing.Point(12, 195);
             this.lstCanciones.Name = "lstCanciones";
-            this.lstCanciones.Size = new System.Drawing.Size(551, 251);
+            this.lstCanciones.Size = new System.Drawing.Size(551, 121);
             this.lstCanciones.TabIndex = 1;
             this.lstCanciones.SelectedIndexChanged += new System.EventHandler(this.lstCanciones_SelectedIndexChanged);
-            // 
-            // Reproductor
-            // 
-            this.Reproductor.Enabled = true;
-            this.Reproductor.Location = new System.Drawing.Point(594, 428);
-            this.Reproductor.Name = "Reproductor";
-            this.Reproductor.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Reproductor.OcxState")));
-            this.Reproductor.Size = new System.Drawing.Size(34, 10);
-            this.Reproductor.TabIndex = 0;
-            this.Reproductor.PlayStateChange += new AxWMPLib._WMPOCXEvents_PlayStateChangeEventHandler(this.Reproductor_PlayStateChange);
             // 
             // mtrackEstatus
             // 
@@ -174,11 +165,30 @@
             this.timer1.Interval = 1;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // Reproductor
+            // 
+            this.Reproductor.Enabled = true;
+            this.Reproductor.Location = new System.Drawing.Point(222, 36);
+            this.Reproductor.Name = "Reproductor";
+            this.Reproductor.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Reproductor.OcxState")));
+            this.Reproductor.Size = new System.Drawing.Size(341, 153);
+            this.Reproductor.TabIndex = 0;
+            this.Reproductor.PlayStateChange += new AxWMPLib._WMPOCXEvents_PlayStateChangeEventHandler(this.Reproductor_PlayStateChange);
+            // 
+            // panel1
+            // 
+            this.panel1.Location = new System.Drawing.Point(222, 120);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(341, 69);
+            this.panel1.TabIndex = 10;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(571, 450);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(568, 321);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.lblCancion);
             this.Controls.Add(this.btnStop);
             this.Controls.Add(this.btnPlay);
@@ -191,11 +201,11 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.Reproductor)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnStop)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnPlay)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnAdjuntar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Reproductor)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -213,6 +223,7 @@
         private System.Windows.Forms.PictureBox btnStop;
         private System.Windows.Forms.Label lblCancion;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 
