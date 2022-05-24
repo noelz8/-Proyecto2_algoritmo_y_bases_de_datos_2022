@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "Registro/1.0.0": {
         "dependencies": {
+          "MACTrackBarLib.dll": "1.0.2",
           "Microsoft.OpenApi": "1.3.1",
           "Newtonsoft.Json": "13.0.1",
           "System.Data.Odbc": "6.0.0",
@@ -17,6 +18,14 @@
         },
         "runtime": {
           "Registro.dll": {}
+        }
+      },
+      "MACTrackBarLib.dll/1.0.2": {
+        "runtime": {
+          "lib/net40/MACTrackBarLib.dll": {
+            "assemblyVersion": "1.0.5896.38740",
+            "fileVersion": "1.0.5896.38740"
+          }
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
@@ -303,6 +312,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "MACTrackBarLib.dll/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iZj4vJidbiVCcb/LI3j7csCEen1yVpb0CPgMu+yxSmBUBci6csHNEgEJw9+mZVbnWe1/ccT3AUO43PFr+KEIlA==",
+      "path": "mactrackbarlib.dll/1.0.2",
+      "hashPath": "mactrackbarlib.dll.1.0.2.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
