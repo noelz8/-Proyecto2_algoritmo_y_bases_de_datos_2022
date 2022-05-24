@@ -32,4 +32,21 @@ C:\Users\hp\Desktop\I semestre 2022\progrmacion\Proyecto 2\Registro\Registro\bin
 C:\Users\hp\Desktop\I semestre 2022\progrmacion\Proyecto 2\Registro\Registro\bin\Debug\net6.0-windows\runtimes\solaris\lib\net6.0\System.Data.Odbc.dll
 C:\Users\hp\Desktop\I semestre 2022\progrmacion\Proyecto 2\Registro\Registro\bin\Debug\net6.0-windows\runtimes\tvos\lib\net6.0\System.Data.Odbc.dll
 C:\Users\hp\Desktop\I semestre 2022\progrmacion\Proyecto 2\Registro\Registro\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Data.Odbc.dll
+<<<<<<< Updated upstream
 C:\Users\hp\Desktop\I semestre 2022\progrmacion\Proyecto 2\Registro\Registro\bin\Debug\net6.0-windows\MACTrackBarLib.dll
+=======
+C:\Users\hp\Desktop\I semestre 2022\progrmacion\Proyecto 2\Registro\Registro\obj\Debug\net6.0-windows\Prueba.Form1.resources
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Git hub\p\-Proyecto2_algoritmo_y_bases_de_datos_2022\Registro\Registro\obj\Debug\net6.0-windows\Registro.csproj.AssemblyReference.cache
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Git hub\p\-Proyecto2_algoritmo_y_bases_de_datos_2022\Registro\Registro\obj\Debug\net6.0-windows\Prueba.Form1.resources
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Git hub\p\-Proyecto2_algoritmo_y_bases_de_datos_2022\Registro\Registro\obj\Debug\net6.0-windows\Registro.frmholder.resources
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Git hub\p\-Proyecto2_algoritmo_y_bases_de_datos_2022\Registro\Registro\obj\Debug\net6.0-windows\Registro.frmLogin.resources
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Git hub\p\-Proyecto2_algoritmo_y_bases_de_datos_2022\Registro\Registro\obj\Debug\net6.0-windows\Registro.frmRegister.resources
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Git hub\p\-Proyecto2_algoritmo_y_bases_de_datos_2022\Registro\Registro\obj\Debug\net6.0-windows\Registro.csproj.GenerateResource.cache
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Git hub\p\-Proyecto2_algoritmo_y_bases_de_datos_2022\Registro\Registro\obj\Debug\net6.0-windows\Registro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Git hub\p\-Proyecto2_algoritmo_y_bases_de_datos_2022\Registro\Registro\obj\Debug\net6.0-windows\Registro.AssemblyInfoInputs.cache
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Git hub\p\-Proyecto2_algoritmo_y_bases_de_datos_2022\Registro\Registro\obj\Debug\net6.0-windows\Registro.AssemblyInfo.cs
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Git hub\p\-Proyecto2_algoritmo_y_bases_de_datos_2022\Registro\Registro\obj\Debug\net6.0-windows\Registro.csproj.CoreCompileInputs.cache
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Git hub\p\-Proyecto2_algoritmo_y_bases_de_datos_2022\Registro\Registro\obj\Debug\net6.0-windows\Registro.dll
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Git hub\p\-Proyecto2_algoritmo_y_bases_de_datos_2022\Registro\Registro\obj\Debug\net6.0-windows\refint\Registro.dll
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Git hub\p\-Proyecto2_algoritmo_y_bases_de_datos_2022\Registro\Registro\obj\Debug\net6.0-windows\Registro.pdb
+>>>>>>> Stashed changes

@@ -1,25 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\Desktop\\I semestre 2022\\progrmacion\\Proyecto 2\\Registro\\Registro\\Registro.csproj": {}
+    "C:\\Users\\Personal\\Desktop\\Trabajos del Tec\\3 y 4 semstre\\Datos\\Git hub\\p\\-Proyecto2_algoritmo_y_bases_de_datos_2022\\Registro\\Registro\\Registro.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\Desktop\\I semestre 2022\\progrmacion\\Proyecto 2\\Registro\\Registro\\Registro.csproj": {
+    "C:\\Users\\Personal\\Desktop\\Trabajos del Tec\\3 y 4 semstre\\Datos\\Git hub\\p\\-Proyecto2_algoritmo_y_bases_de_datos_2022\\Registro\\Registro\\Registro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Desktop\\I semestre 2022\\progrmacion\\Proyecto 2\\Registro\\Registro\\Registro.csproj",
+        "projectUniqueName": "C:\\Users\\Personal\\Desktop\\Trabajos del Tec\\3 y 4 semstre\\Datos\\Git hub\\p\\-Proyecto2_algoritmo_y_bases_de_datos_2022\\Registro\\Registro\\Registro.csproj",
         "projectName": "Registro",
-        "projectPath": "C:\\Users\\hp\\Desktop\\I semestre 2022\\progrmacion\\Proyecto 2\\Registro\\Registro\\Registro.csproj",
-        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Desktop\\I semestre 2022\\progrmacion\\Proyecto 2\\Registro\\Registro\\obj\\",
+        "projectPath": "C:\\Users\\Personal\\Desktop\\Trabajos del Tec\\3 y 4 semstre\\Datos\\Git hub\\p\\-Proyecto2_algoritmo_y_bases_de_datos_2022\\Registro\\Registro\\Registro.csproj",
+        "packagesPath": "C:\\Users\\Personal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Personal\\Desktop\\Trabajos del Tec\\3 y 4 semstre\\Datos\\Git hub\\p\\-Proyecto2_algoritmo_y_bases_de_datos_2022\\Registro\\Registro\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Personal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -92,7 +87,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
