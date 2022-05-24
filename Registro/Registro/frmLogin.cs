@@ -8,6 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.OleDb;
+using System.Text.Json;
+using System.Text.Json.Serialization;
+using Newtonsoft.Json;
+using JsonSerializer = Newtonsoft.Json.JsonSerializer;
+using System.Collections.Generic;
 
 
 namespace Registro
@@ -25,13 +30,33 @@ namespace Registro
         OleDbCommand cmd = new OleDbCommand();
         OleDbDataAdapter da = new OleDbDataAdapter();
 
-        private void btnLogin_Click(object sender, EventArgs e)
+        class Usuarios
+        {
+
+            public string? Nombre { get; set; }
+            public string? Apellidos { get; set; }
+            public string? Edad { get; set; }
+            public string? Usuario { get; set; }
+            public string? Password { get; set; }
+            public string? CPassword { get; set; }
+        }
+
+
+
+
+
+
+            private void btnLogin_Click(object sender, EventArgs e) //aqui hay que hacer que lea el JSON y verifique que los datos ingresados estan bien
         {
             con.Open();
             string login = "SELECT * FROM tbl_users WHERE usuario= '" + txtUsuario.Text + "' and contraseña= '" + txtPassword.Text + "'";
-            cmd = new OleDbCommand(login,con);
+            cmd = new OleDbCommand(login, con);
             OleDbDataReader dr = cmd.ExecuteReader();
             if (dr.Read() == true)
+            //StreamReader r = new StreamReader("registros.json");
+            //string jsonString = r.ReadToEnd();
+            //Usuarios m = JsonConvert.DeserializeObject<Usuarios>(jsonString);
+
             {
                 new frmholder().Show();
                 this.Hide();

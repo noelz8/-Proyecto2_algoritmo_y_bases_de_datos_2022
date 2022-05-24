@@ -1,29 +1,48 @@
-using System;
+//using System.Data.OleDb;
+using Newtonsoft.Json;
+using System.Text.Json;
+using JsonSerializer = Newtonsoft.Json.JsonSerializer;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using System.Data.OleDb;
-
+using System.Text.Json.Serialization;
 
 
 namespace Registro
 {
+   
     public partial class frmRegister : Form
     {
-        public frmRegister()
+        
+        public class Usuarios
         {
-            InitializeComponent();
+            //Esta clase segun las guias es la que debe de estar para que guarde en el JSON
+            
+            public string? Nombre { get; set; }
+            public string? Apellidos { get; set; }
+            public string? Edad { get; set; }
+            public string? Usuario { get; set; }
+            public string? Password { get; set; }
+            public string? CPassword { get; set; }
+
+
 
 
         }
-        OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=db_usuarios.mdb");
-        OleDbCommand cmd = new OleDbCommand();
-        OleDbDataAdapter da = new OleDbDataAdapter();
+        public class JsonOperation
+        {
+            public static void Serialize(Usuarios usuarios)
+            {
+                File.WriteAllText("registros.json", JsonConvert.SerializeObject(usuarios));
+            }
+        }
+
+        public frmRegister()
+        {
+            InitializeComponent();
+           
+
+
+        }
+        
 
         private void label4_Click(object sender, EventArgs e)
         {
@@ -45,24 +64,69 @@ namespace Registro
             new frmLogin().Show();
             this.Hide();
         }
+       
 
+        // aqui hay que hacer que al apredar el boton registre lo de las cajas de texto en json. El texto de las cajas es lo que tiene como formato .Text al final
         private void btnRegister_Click(object sender, EventArgs e)
         {
-            if (txtUsuario.Text == "" && txtPassword.Text == "" && txtComPassword.Text == "")
+
+            if (txtNombre.Text==""&& txtUsuario.Text == "" && txtApellidos.Text == "" && txtEdad.Text == "" && txtPassword.Text == "" && txtComPassword.Text == "")
             {
                 MessageBox.Show("Llene los espacios", "registro Fallido", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+
             else if (txtPassword.Text == txtComPassword.Text)
             {
-                con.Open();
-                string register = "INSERT INTO tbl_users VALUES ('" + txtUsuario.Text + "','" + txtPassword.Text + "')";
-                cmd = new OleDbCommand(register, con);
-                cmd.ExecuteNonQuery();
-                con.Close();
 
+               
+
+
+              List<Usuarios> _usuarios = new List<Usuarios>();
+              _usuarios.Add(new Usuarios()
+              
+                {
+                    
+                    Nombre = txtNombre.Text,
+                    Usuario = txtUsuario.Text,
+                    Apellidos = txtApellidos.Text,
+                    Edad = txtEdad.Text,
+                    Password = txtPassword.Text,
+                    CPassword = txtComPassword.Text
+                });
+
+                //var options = new JsonSerializerOptions {WriteIndented = true};
+                //  string jsonString = JsonSerializer.Serialize(_usuarios, options);
+
+
+                string json = JsonConvert.SerializeObject(_usuarios.ToArray());
+
+                //write string to file
+                System.IO.File.WriteAllText(@"C:\Users\hp\Desktop\I semestre 2022\progrmacion\Proyecto 2\Registro\Registro\bin\Debug\net6.0-windows\registros.json", json);
+
+
+                //ESTO SIRVE
+
+                //File.Create(@"registros.json"); 
+                //Crea el archivo
+                // serialize JSON to a string and then write string to a file
+                //File.WriteAllText(@"C:\Users\hp\Desktop\I semestre 2022\progrmacion\Proyecto 2\Registro\Registro\bin\Debug\net6.0-windows\registros.json", JsonConvert.SerializeObject(_usuarios));
+
+                //// serialize JSON directly to a file
+                //using (StreamWriter file = File.CreateText(@"C:\Users\hp\Desktop\I semestre 2022\progrmacion\Proyecto 2\Registro\Registro\bin\Debug\net6.0-windows\registros.json"))
+                //{
+                //    JsonSerializer serializer = new JsonSerializer();
+                //    serializer.Serialize(file,_usuarios);
+                //}
+                //
+
+                txtNombre.Text = "";
                 txtUsuario.Text = "";
-                txtPassword.Text = "";
-                txtComPassword.Text = "";
+                    txtApellidos.Text = "";
+                    txtEdad.Text = "";
+                    txtPassword.Text = "";
+                    txtComPassword.Text = "";
+
+
 
 
                 MessageBox.Show("Registro Completo, disfruta", "Incia", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -75,6 +139,8 @@ namespace Registro
                 txtPassword.Focus();
             }
         }
+
+       
 
         private void CheckbxShowPas_CheckedChanged(object sender, EventArgs e)
         {
@@ -97,5 +163,31 @@ namespace Registro
             txtComPassword.Text = "";
             txtUsuario.Focus();
         }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtApellidos_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtNombre_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
-    }
+  
+}
