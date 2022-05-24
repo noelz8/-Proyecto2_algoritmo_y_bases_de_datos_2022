@@ -32,3 +32,4 @@ C:\Users\hp\Desktop\I semestre 2022\progrmacion\Proyecto 2\Registro\Registro\bin
 C:\Users\hp\Desktop\I semestre 2022\progrmacion\Proyecto 2\Registro\Registro\bin\Debug\net6.0-windows\runtimes\solaris\lib\net6.0\System.Data.Odbc.dll
 C:\Users\hp\Desktop\I semestre 2022\progrmacion\Proyecto 2\Registro\Registro\bin\Debug\net6.0-windows\runtimes\tvos\lib\net6.0\System.Data.Odbc.dll
 C:\Users\hp\Desktop\I semestre 2022\progrmacion\Proyecto 2\Registro\Registro\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Data.Odbc.dll
+C:\Users\hp\Desktop\I semestre 2022\progrmacion\Proyecto 2\Registro\Registro\obj\Debug\net6.0-windows\Prueba.Form1.resources

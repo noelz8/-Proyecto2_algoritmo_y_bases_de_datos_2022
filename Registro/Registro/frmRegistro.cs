@@ -94,8 +94,7 @@ namespace Registro
                     CPassword = txtComPassword.Text
                 });
 
-                //var options = new JsonSerializerOptions {WriteIndented = true};
-                //  string jsonString = JsonSerializer.Serialize(_usuarios, options);
+            
 
 
                 string json = JsonConvert.SerializeObject(_usuarios.ToArray());
@@ -130,6 +129,8 @@ namespace Registro
 
 
                 MessageBox.Show("Registro Completo, disfruta", "Incia", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                new frmLogin().Show();
+                this.Hide();
             }
             else
             {

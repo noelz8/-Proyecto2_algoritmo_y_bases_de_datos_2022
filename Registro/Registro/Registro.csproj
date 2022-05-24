@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MACTrackBarLib.dll" Version="1.0.2" />
     <PackageReference Include="Microsoft.OpenApi" Version="1.3.1" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="System.Data.Odbc" Version="6.0.0" />

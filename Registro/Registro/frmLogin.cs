@@ -29,7 +29,7 @@ namespace Registro
         OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=db_usuarios.mdb");
         OleDbCommand cmd = new OleDbCommand();
         OleDbDataAdapter da = new OleDbDataAdapter();
-
+        //JObject o1 = JObject.Parse(File.ReadAllText(@"C:\Users\hp\Desktop\I semestre 2022\progrmacion\Proyecto 2\Registro\Registro\bin\Debug\net6.0-windows\registros.json"));
         class Usuarios
         {
 
@@ -53,7 +53,7 @@ namespace Registro
             cmd = new OleDbCommand(login, con);
             OleDbDataReader dr = cmd.ExecuteReader();
             if (dr.Read() == true)
-            //StreamReader r = new StreamReader("registros.json");
+            //    StreamReader r = new StreamReader("registros.json");
             //string jsonString = r.ReadToEnd();
             //Usuarios m = JsonConvert.DeserializeObject<Usuarios>(jsonString);
 
