@@ -96,7 +96,7 @@ namespace Prueba2
                 string json = JsonConvert.SerializeObject(_usuarios.ToArray());
 
                 //write string to file
-                System.IO.File.WriteAllText(@"C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Git hub\Prueba2\Prueba2\bin\Debug\registros.json", json);
+                System.IO.File.WriteAllText(@"C:\Users\hp\Desktop\I semestre 2022\progrmacion\Proyecto 2\Prueba2\Prueba2\bin\Debug\registros.json", json);
 
                 txtNombre.Text = "";
                 txtUsuario.Text = "";
