@@ -73,13 +73,7 @@ namespace Prueba2
             btnPlay.Image = Properties.Resources.play;
             Play = false;
         }
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            ActualizarDatosTrack();
-            mtrackEstatus.Value = (int)Reproductor.Ctlcontrols.currentPosition;
-            mtrackVolumen.Value = Reproductor.settings.volume;
 
-        }
         private void ActualizarDatosTrack()
         {
             if (Reproductor.playState == WMPLib.WMPPlayState.wmppsPlaying)
@@ -146,6 +140,19 @@ namespace Prueba2
 
         private void mtrackEstatus_Scroll(object sender, EventArgs e)
         {
+
+        }
+
+        private void lblCancion_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void timer1_Tick_1(object sender, EventArgs e)
+        {
+            ActualizarDatosTrack();
+            mtrackEstatus.Value = (int)Reproductor.Ctlcontrols.currentPosition;
+            mtrackVolumen.Value = Reproductor.settings.volume;
 
         }
     }
