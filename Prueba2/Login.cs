@@ -12,6 +12,9 @@ using System.Text.Json;
 using JsonSerializer = Newtonsoft.Json.JsonSerializer;
 using System.Text.Json.Serialization;
 using System.IO;
+using Newtonsoft.Json.Linq;
+using System.Web.Script.Serialization;
+using Newtonsoft.Json.Converters;
 
 namespace Prueba2
 {
@@ -21,23 +24,35 @@ namespace Prueba2
         {
             InitializeComponent();
         }
-       
+
 
 
         public class Rootobject
         {
-            public Class1[] Property1 { get; set; }
+            public Root[] Property1 { get; set; }
         }
 
-        public class Class1
+        public class Root
         {
+            [JsonProperty("Nombre")]
             public string Nombre { get; set; }
+
+            [JsonProperty("Apellidos")]
             public string Apellidos { get; set; }
+
+            [JsonProperty("Edad")]
             public string Edad { get; set; }
+
+            [JsonProperty("Usuario")]
             public string Usuario { get; set; }
+
+            [JsonProperty("Password")]
             public string Password { get; set; }
+
+            [JsonProperty("CPassword")]
             public string CPassword { get; set; }
         }
+
 
 
         private void txtComPassword_TextChanged(object sender, EventArgs e)
@@ -59,18 +74,36 @@ namespace Prueba2
             txtUsuario.Focus();
         }
 
+
+        public class RootConverter : CustomCreationConverter<Root>
+        {
+            public override Root Create(Type objectType)
+            {
+                return new Root();
+            }
+        }
+
+
+
         private void button1_Click(object sender, EventArgs e)
         {
-            Class1 _usuarios = JsonConvert.DeserializeObject<Class1>(File.ReadAllText(@"D:\registros.json"));
-            //Class1 _usuarios = JsonConvert.DeserializeObject<Class1>(@"registros.json");
-            string user = _usuarios.Usuario;
-            string passw = _usuarios.Password;
+
+            string path = @"C:\Users\hp\Desktop\I semestre 2022\progrmacion\Proyecto 2\Prueba2\Prueba2\bin\Debug\registros.json";
+            string datos = File.ReadAllText(path);
+
+            Root cosa = JsonConvert.DeserializeObject<Root>(path, new RootConverter());
+
+            
+
+
+
+
 
             if (txtUsuario.Text == "" && txtPassword.Text == "")
             {
                 MessageBox.Show("Llene los espacios", "inicio Fallido", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            else if (txtUsuario.Text == user && txtPassword.Text == passw)
+            else if (txtUsuario.Text == cosa.Usuario  && txtPassword.Text== cosa.Password)
             {
                 new reproductir().Show();
                 this.Hide();

@@ -19,18 +19,23 @@ namespace Prueba2
 
         public class Usuarios
         {
-            //Esta clase segun las guias es la que debe de estar para que guarde en el JSON
-
+            [JsonProperty("Nombre")]
             public string Nombre { get; set; }
+
+            [JsonProperty("Apellidos")]
             public string Apellidos { get; set; }
+
+            [JsonProperty("Edad")]
             public string Edad { get; set; }
+
+            [JsonProperty("Usuario")]
             public string Usuario { get; set; }
+
+            [JsonProperty("Password")]
             public string Password { get; set; }
+
+            [JsonProperty("CPassword")]
             public string CPassword { get; set; }
-
-
-
-
         }
 
         public Form1()
@@ -81,8 +86,8 @@ namespace Prueba2
                 
 
                 JsonSerializer serializer = new JsonSerializer();
-                //string path = @"C:\Users\hp\Desktop\I semestre 2022\progrmacion\Proyecto 2\Prueba2\Prueba2\bin\Debug\registros.json";
-                string path = @"D:\registros.json";
+                string path = @"C:\Users\hp\Desktop\I semestre 2022\progrmacion\Proyecto 2\Prueba2\Prueba2\bin\Debug\registros.json";
+                //string path = @"D:\registros.json";
 
 
                 if (System.IO.File.Exists(path))
@@ -91,6 +96,7 @@ namespace Prueba2
                     {
                         Newtonsoft.Json.JsonReader jsonReader= new Newtonsoft.Json.JsonTextReader(reader);
                         _usuarios= serializer.Deserialize<List<Usuarios>>(jsonReader);
+                        
                     }
                 }
 
@@ -110,6 +116,7 @@ namespace Prueba2
                     });
 
                     serializer.Serialize(file, _usuarios);
+                    
                 }
 
                 //string json = JsonConvert.SerializeObject(_usuarios.ToArray());

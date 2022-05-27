@@ -71,7 +71,7 @@
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(57, 341);
+            this.button2.Location = new System.Drawing.Point(57, 312);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(438, 35);
             this.button2.TabIndex = 26;
@@ -86,7 +86,7 @@
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(57, 274);
+            this.button1.Location = new System.Drawing.Point(57, 246);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(438, 35);
             this.button1.TabIndex = 25;
@@ -115,13 +115,13 @@
             this.txtPassword.Multiline = true;
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
-            this.txtPassword.Size = new System.Drawing.Size(171, 22);
+            this.txtPassword.Size = new System.Drawing.Size(187, 39);
             this.txtPassword.TabIndex = 21;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(54, 105);
+            this.label6.Location = new System.Drawing.Point(54, 110);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(76, 16);
             this.label6.TabIndex = 20;
@@ -132,10 +132,10 @@
             this.txtUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
             this.txtUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtUsuario.Font = new System.Drawing.Font("MS Reference Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsuario.Location = new System.Drawing.Point(57, 62);
+            this.txtUsuario.Location = new System.Drawing.Point(57, 59);
             this.txtUsuario.Multiline = true;
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(171, 22);
+            this.txtUsuario.Size = new System.Drawing.Size(207, 36);
             this.txtUsuario.TabIndex = 19;
             // 
             // label5
