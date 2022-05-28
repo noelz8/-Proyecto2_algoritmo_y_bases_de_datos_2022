@@ -67,7 +67,7 @@
             // 
             this.mtrackEstatus.BackColor = System.Drawing.Color.RosyBrown;
             this.mtrackEstatus.Location = new System.Drawing.Point(9, 52);
-            this.mtrackEstatus.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mtrackEstatus.Margin = new System.Windows.Forms.Padding(2);
             this.mtrackEstatus.Name = "mtrackEstatus";
             this.mtrackEstatus.Size = new System.Drawing.Size(414, 45);
             this.mtrackEstatus.TabIndex = 1;
@@ -79,7 +79,7 @@
             this.btnAdjuntar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAdjuntar.Image = global::Prueba2.Properties.Resources.add;
             this.btnAdjuntar.Location = new System.Drawing.Point(9, 101);
-            this.btnAdjuntar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAdjuntar.Margin = new System.Windows.Forms.Padding(2);
             this.btnAdjuntar.Name = "btnAdjuntar";
             this.btnAdjuntar.Size = new System.Drawing.Size(50, 50);
             this.btnAdjuntar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -92,7 +92,7 @@
             this.btnPlay.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnPlay.Image = global::Prueba2.Properties.Resources.play;
             this.btnPlay.Location = new System.Drawing.Point(63, 101);
-            this.btnPlay.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnPlay.Margin = new System.Windows.Forms.Padding(2);
             this.btnPlay.Name = "btnPlay";
             this.btnPlay.Size = new System.Drawing.Size(50, 50);
             this.btnPlay.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -105,7 +105,7 @@
             this.btnStop.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnStop.Image = global::Prueba2.Properties.Resources.stop;
             this.btnStop.Location = new System.Drawing.Point(117, 101);
-            this.btnStop.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnStop.Margin = new System.Windows.Forms.Padding(2);
             this.btnStop.Name = "btnStop";
             this.btnStop.Size = new System.Drawing.Size(50, 50);
             this.btnStop.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -117,7 +117,7 @@
             // 
             this.pictureBox4.Image = global::Prueba2.Properties.Resources.volume_up_4_xxl;
             this.pictureBox4.Location = new System.Drawing.Point(9, 155);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(50, 50);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -130,7 +130,7 @@
             this.mtrackVolumen.Cursor = System.Windows.Forms.Cursors.Hand;
             this.mtrackVolumen.LargeChange = 2;
             this.mtrackVolumen.Location = new System.Drawing.Point(63, 170);
-            this.mtrackVolumen.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mtrackVolumen.Margin = new System.Windows.Forms.Padding(2);
             this.mtrackVolumen.Maximum = 150;
             this.mtrackVolumen.Name = "mtrackVolumen";
             this.mtrackVolumen.Size = new System.Drawing.Size(160, 45);
@@ -142,7 +142,7 @@
             // 
             this.lstCanciones.FormattingEnabled = true;
             this.lstCanciones.Location = new System.Drawing.Point(9, 285);
-            this.lstCanciones.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.lstCanciones.Margin = new System.Windows.Forms.Padding(2);
             this.lstCanciones.Name = "lstCanciones";
             this.lstCanciones.Size = new System.Drawing.Size(545, 173);
             this.lstCanciones.TabIndex = 9;
@@ -152,7 +152,7 @@
             // 
             this.pictureBox5.Image = global::Prueba2.Properties.Resources.encendido__1_;
             this.pictureBox5.Location = new System.Drawing.Point(657, 417);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(50, 50);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -194,9 +194,10 @@
             this.Controls.Add(this.Reproductor);
             this.Controls.Add(this.mtrackEstatus);
             this.Controls.Add(this.lblCancion);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "reproductir";
             this.Text = "reproductir";
+            this.Load += new System.EventHandler(this.reproductir_Load);
             ((System.ComponentModel.ISupportInitialize)(this.mtrackEstatus)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnAdjuntar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnPlay)).EndInit();
