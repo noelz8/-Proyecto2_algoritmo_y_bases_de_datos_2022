@@ -41,6 +41,7 @@ C:\Users\hp\Desktop\I semestre 2022\progrmacion\Proyecto 2\Prueba2\Prueba2\obj\D
 C:\Users\hp\Desktop\I semestre 2022\progrmacion\Proyecto 2\Prueba2\Prueba2\obj\Debug\Prueba2.exe
 C:\Users\hp\Desktop\I semestre 2022\progrmacion\Proyecto 2\Prueba2\Prueba2\obj\Debug\Prueba2.pdb
 C:\Users\hp\Desktop\I semestre 2022\progrmacion\Proyecto 2\Prueba2\Prueba2\obj\Debug\Prueba2.reproductir.resources
+<<<<<<< HEAD
 C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Git hub\p\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\bin\Debug\Prueba2.exe.config
 C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Git hub\p\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\bin\Debug\Prueba2.exe
 C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Git hub\p\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\bin\Debug\Prueba2.pdb
@@ -84,3 +85,91 @@ C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Git hub\p\-Proyec
 C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Git hub\p\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\obj\Debug\Prueba2.csproj.CopyComplete
 C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Git hub\p\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\obj\Debug\Prueba2.exe
 C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Git hub\p\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\obj\Debug\Prueba2.pdb
+=======
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\bin\Debug\Prueba2.exe.config
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\bin\Debug\Prueba2.exe
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\bin\Debug\Prueba2.pdb
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\bin\Debug\MACTrackBarLib.dll
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\bin\Debug\Microsoft.OpenApi.dll
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\bin\Debug\System.Buffers.dll
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\bin\Debug\System.Memory.dll
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\bin\Debug\System.Text.Json.dll
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\bin\Debug\System.ValueTuple.dll
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\bin\Debug\Microsoft.OpenApi.pdb
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\bin\Debug\Microsoft.OpenApi.xml
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\bin\Debug\System.Buffers.xml
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\bin\Debug\System.Memory.xml
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\bin\Debug\System.Text.Json.xml
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\bin\Debug\System.ValueTuple.xml
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\bin\Debug\Interop.WMPLib.dll
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\obj\Debug\Prueba2.csproj.AssemblyReference.cache
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\obj\Debug\Prueba2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\obj\Debug\Interop.WMPLib.dll
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\obj\Debug\Prueba2.csproj.ResolveComReference.cache
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\obj\Debug\Prueba2.Form1.resources
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\obj\Debug\Prueba2.Login.resources
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\obj\Debug\Prueba2.Properties.Resources.resources
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\obj\Debug\Prueba2.reproductir.resources
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\obj\Debug\Prueba2.csproj.GenerateResource.cache
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\obj\Debug\Prueba2.csproj.CoreCompileInputs.cache
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\obj\Debug\Prueba2.csproj.CopyComplete
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\obj\Debug\Prueba2.exe
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\obj\Debug\Prueba2.pdb
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\bin\Debug\Prueba2.exe.config
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\bin\Debug\Prueba2.exe
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\bin\Debug\Prueba2.pdb
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\bin\Debug\MACTrackBarLib.dll
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\bin\Debug\Microsoft.OpenApi.dll
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\bin\Debug\System.Buffers.dll
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\bin\Debug\System.Memory.dll
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\bin\Debug\System.Text.Json.dll
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\bin\Debug\System.ValueTuple.dll
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\bin\Debug\Microsoft.OpenApi.pdb
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\bin\Debug\Microsoft.OpenApi.xml
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\bin\Debug\System.Buffers.xml
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\bin\Debug\System.Memory.xml
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\bin\Debug\System.Text.Json.xml
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\bin\Debug\System.ValueTuple.xml
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\bin\Debug\Interop.WMPLib.dll
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\obj\Debug\Prueba2.csproj.AssemblyReference.cache
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\obj\Debug\Prueba2.csproj.SuggestedBindingRedirects.cache
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\obj\Debug\Interop.WMPLib.dll
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\obj\Debug\Prueba2.csproj.ResolveComReference.cache
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\obj\Debug\Prueba2.Form1.resources
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\obj\Debug\Prueba2.Login.resources
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\obj\Debug\Prueba2.Properties.Resources.resources
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\obj\Debug\Prueba2.reproductir.resources
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\obj\Debug\Prueba2.csproj.GenerateResource.cache
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\obj\Debug\Prueba2.csproj.CoreCompileInputs.cache
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\obj\Debug\Prueba2.csproj.CopyComplete
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\obj\Debug\Prueba2.exe
+C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\obj\Debug\Prueba2.pdb
+>>>>>>> main

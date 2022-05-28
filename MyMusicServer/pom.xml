@@ -10,5 +10,12 @@
         <maven.compiler.target>16</maven.compiler.target>
         <exec.mainClass>com.mycompany.p1server.P1Server</exec.mainClass>
     </properties>
+    <dependencies>
+        <dependency>
+            <groupId>com.googlecode.json-simple</groupId>
+            <artifactId>json-simple</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+    </dependencies>
     <name>MyMusicServer</name>
 </project>
