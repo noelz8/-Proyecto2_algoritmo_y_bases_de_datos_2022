@@ -148,5 +148,10 @@ namespace Prueba2
         {
 
         }
+
+        private void macTrackBar2_ValueChanged(object sender, decimal value)
+        {
+            Reproductor.settings.volume = mtrackVolumen.Value;
+        }
     }
 }
