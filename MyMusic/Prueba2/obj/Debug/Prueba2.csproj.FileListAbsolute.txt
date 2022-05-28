@@ -173,3 +173,16 @@ C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\
 C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\obj\Debug\Prueba2.exe
 C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\obj\Debug\Prueba2.pdb
 >>>>>>> main
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\obj\Debug\Prueba2.csproj.AssemblyReference.cache
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\obj\Debug\Prueba2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\obj\Debug\Interop.WMPLib.dll
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\obj\Debug\Prueba2.csproj.ResolveComReference.cache
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\obj\Debug\Prueba2.Form1.resources
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\obj\Debug\Prueba2.Login.resources
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\obj\Debug\Prueba2.Properties.Resources.resources
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\obj\Debug\Prueba2.reproductir.resources
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\obj\Debug\Prueba2.csproj.GenerateResource.cache
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\obj\Debug\Prueba2.csproj.CoreCompileInputs.cache
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\obj\Debug\Prueba2.exe
+C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\obj\Debug\Prueba2.pdb

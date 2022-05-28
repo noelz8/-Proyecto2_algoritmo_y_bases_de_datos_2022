@@ -111,5 +111,10 @@ namespace Prueba2
 
 
         }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

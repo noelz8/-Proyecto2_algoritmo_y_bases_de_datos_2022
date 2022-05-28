@@ -1,5 +1,4 @@
-﻿// imports necesarios para el funcionamiento
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,7 +13,7 @@ using System.Net.Sockets;
 namespace Prueba2
 {
     public partial class reproductir : Form
-    {   //Globales a utilizar
+    {
         bool Play = false;
         string[] ArchivosMP3;
         string[] rutadeArchivosMP3;
@@ -24,14 +23,11 @@ namespace Prueba2
         }
 
         private void btnAdjuntar_Click(object sender, EventArgs e)
-
         {
-            //Creacion de Variable de busqueda de archivos
             OpenFileDialog CajaDeBusquedaDeArchivos = new OpenFileDialog();
             CajaDeBusquedaDeArchivos.Multiselect = true;
             if (CajaDeBusquedaDeArchivos.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
-                //variable donde se guardaran los nombres e archivos(canciones)
                 ArchivosMP3 = CajaDeBusquedaDeArchivos.SafeFileNames;
                 rutadeArchivosMP3 = CajaDeBusquedaDeArchivos.FileNames;
                 foreach (var ArchivosMP3 in ArchivosMP3)
@@ -45,14 +41,14 @@ namespace Prueba2
 
             }
         }
-        //Lugar donde se mostraran el listado de canciones añadidas
+
         private void lstCanciones_SelectedIndexChanged(object sender, EventArgs e)
         {
             Reproductor.URL = rutadeArchivosMP3[lstCanciones.SelectedIndex];
             lblCancion.Text = ArchivosMP3[lstCanciones.SelectedIndex];
 
         }
-        // botton de reproduccion de musica e pausa
+
         private void btnPlay_Click(object sender, EventArgs e)
         {
             switch (Play)
@@ -70,14 +66,20 @@ namespace Prueba2
 
             }
         }
-        // botton de parar e reiniciar musica
+
         private void btnStop_Click(object sender, EventArgs e)
         {
             Reproductor.Ctlcontrols.stop();
             btnPlay.Image = Properties.Resources.play;
             Play = false;
         }
-        // actulizador de datos 
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            ActualizarDatosTrack();
+            mtrackEstatus.Value = (int)Reproductor.Ctlcontrols.currentPosition;
+            mtrackVolumen.Value = Reproductor.settings.volume;
+
+        }
         private void ActualizarDatosTrack()
         {
             if (Reproductor.playState == WMPLib.WMPPlayState.wmppsPlaying)
@@ -99,7 +101,7 @@ namespace Prueba2
         }
 
         private void Reproductor_PlayStateChange(object sender, AxWMPLib._WMPOCXEvents_PlayStateChangeEvent e)
-        {   // llama a actualizar datos
+        {
             ActualizarDatosTrack();
         }
 
@@ -107,7 +109,7 @@ namespace Prueba2
         {
             Reproductor.settings.volume = mtrackVolumen.Value;
         }
-        // sockets que se conectaran a el servidor de java
+
         private void pictureBox5_Click(object sender, EventArgs e)
         {
             string toSend = "Hello!";
@@ -117,14 +119,14 @@ namespace Prueba2
             Socket clientSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             clientSocket.Connect(serverAddress);
 
-            // Enviardor de bits
+            // Sending
             int toSendLen = System.Text.Encoding.ASCII.GetByteCount(toSend);
             byte[] toSendBytes = System.Text.Encoding.ASCII.GetBytes(toSend);
             byte[] toSendLenBytes = System.BitConverter.GetBytes(toSendLen);
             clientSocket.Send(toSendLenBytes);
             clientSocket.Send(toSendBytes);
 
-            // Recibidor de bits
+            // Receiving
             byte[] rcvLenBytes = new byte[4];
             clientSocket.Receive(rcvLenBytes);
             int rcvLen = System.BitConverter.ToInt32(rcvLenBytes, 0);
@@ -133,7 +135,7 @@ namespace Prueba2
             String rcv = System.Text.Encoding.ASCII.GetString(rcvBytes);
 
             Console.WriteLine("Client received: " + rcv);
-            // cierra la conexion con el servidor
+
             clientSocket.Close();
         }
 
@@ -143,30 +145,6 @@ namespace Prueba2
         }
 
         private void mtrackEstatus_Scroll(object sender, EventArgs e)
-        {
-
-        }
-
-<<<<<<< HEAD
-        private void macTrackBar2_ValueChanged(object sender, decimal value)
-        {
-            Reproductor.settings.volume = mtrackVolumen.Value;
-=======
-        private void lblCancion_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void timer1_Tick_1(object sender, EventArgs e)
-        {
-            ActualizarDatosTrack();
-            mtrackEstatus.Value = (int)Reproductor.Ctlcontrols.currentPosition;
-            mtrackVolumen.Value = Reproductor.settings.volume;
-
->>>>>>> main
-        }
-
-        private void reproductir_Load(object sender, EventArgs e)
         {
 
         }
