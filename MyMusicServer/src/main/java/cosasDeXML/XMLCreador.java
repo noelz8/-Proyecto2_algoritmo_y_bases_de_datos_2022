@@ -29,8 +29,12 @@ import org.w3c.dom.Text;
  */
 public class XMLCreador {
     public static void main(String[] args) throws ParserConfigurationException, TransformerException {
+        /**
+         * En esta clase se almacena la función XMLCreador() que a como lo indica su nombre, se encarga de crear 
+         * el archivo XML en el cual se almacenarán los datos recibidos y traducidos desde el JSON
+         */
         try {
-            // TODO code application logic here
+            // Se crean factory, builder e implementation, los cuales son necesarios para el correcto funcionamiento del creador de XML
             
             DocumentBuilderFactory factory  = DocumentBuilderFactory.newInstance();
             DocumentBuilder  builder = factory.newDocumentBuilder();
@@ -75,7 +79,7 @@ public class XMLCreador {
             persona.appendChild(contraseña);
             
             personas.appendChild(persona);
-            
+            //Acá obtiene los datos de personas y los almacena en documento para ser impresos en un archivo XML 
             documento.getDocumentElement().appendChild(personas);
             
             Source source = new DOMSource(documento);

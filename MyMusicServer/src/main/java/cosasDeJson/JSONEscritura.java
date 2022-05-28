@@ -15,6 +15,11 @@ import org.json.simple.JSONObject;
  */
 public class JSONEscritura {
     public static void main(String[] args) {
+        /**
+         * Esta clase almacena la función crearJSON() la cual es la encargada de a como lo indica su nombre crear la plantilla donde 
+         * se obtendran los datos recibidos desde el servidor y posteriormente se traducirán a XML para su almacenamiento.
+         */
+        
         crearJSON();
         
     }

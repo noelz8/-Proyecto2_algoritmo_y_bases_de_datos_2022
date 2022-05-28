@@ -15,6 +15,9 @@ public class QuickSort {
      * @param args
      */
     public static void main(String[] args) {
+        /**
+         * Ejemplo de quickSort al cual se le ingresan diversos datos
+         */
         int [] arr = {10,25,7,3,22,3,44,900,222,2345,2};
         int n = arr.length;
         

@@ -11,6 +11,9 @@ package sorts;
 public class BubbleSort {
     
     public static void main(String[] args) {
+        /**
+         * Clase la cual contiene una funcion de ejemplo de bubblesort con varios datos
+         */
         BubbleSort ob = new BubbleSort();
         int arr[] = {123342,23452,34,3452,235,523452,23452,2452,2345,2452,435,2424,524,242,5534};
         ob.bubbleSort(arr);
