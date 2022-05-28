@@ -122,12 +122,7 @@ namespace Prueba2
                     
                 }
 
-
-                //write string to file
-                System.IO.File.WriteAllText(@"C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Git hub\p\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\bin\Debug\registros.json", json);
-
                 //string json = JsonConvert.SerializeObject(_usuarios.ToArray());
-
 
                 ////write string to file
                 //System.IO.File.WriteAllText(@"C:\Users\hp\Desktop\I semestre 2022\progrmacion\Proyecto 2\Prueba2\Prueba2\bin\Debug\registros.json", json);

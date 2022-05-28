@@ -143,7 +143,7 @@ namespace Prueba2
 
         }
 
-        private void reproductir_Load(object sender, EventArgs e)
+        private void lblCancion_Click(object sender, EventArgs e)
         {
 
         }
