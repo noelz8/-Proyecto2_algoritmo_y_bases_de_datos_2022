@@ -26,7 +26,7 @@ namespace Prueba2
         }
 
 
-
+        //clases generada apartir del archivo JSON
         public class Rootobject
         {
             public Root[] Property1 { get; set; }
@@ -59,13 +59,13 @@ namespace Prueba2
         {
 
         }
-
+        //label para volver al registro
         private void label9_Click(object sender, EventArgs e)
         {
             new Form1().Show();
             this.Hide();
         }
-
+        //boton para limpiar los textboxes
         private void button2_Click(object sender, EventArgs e)
         {
             txtUsuario.Text = "";
@@ -74,7 +74,7 @@ namespace Prueba2
             txtUsuario.Focus();
         }
 
-
+        //funcion que tomaria la clase y el archivo para darle fomato
         public class RootConverter : CustomCreationConverter<Root>
         {
             public override Root Create(Type objectType)
@@ -84,13 +84,13 @@ namespace Prueba2
         }
 
 
-
+        //boton de registro
         private void button1_Click(object sender, EventArgs e)
         {
-
-            string path = @"C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\bin\Debug\registros.json";
+            //strings para declarar el archivo JSON a usar y para que lo lea
+            string path = @"C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\bin\Debug\registros.json";
             string datos = File.ReadAllText(path);
-
+            //llamar los atributos como usuario y contraseña del JSON
             Root cosa = JsonConvert.DeserializeObject<Root>(path, new RootConverter());
 
             

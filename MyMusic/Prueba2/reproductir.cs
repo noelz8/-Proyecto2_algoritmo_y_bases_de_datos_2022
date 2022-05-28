@@ -147,6 +147,11 @@ namespace Prueba2
 
         }
 
+<<<<<<< HEAD
+        private void macTrackBar2_ValueChanged(object sender, decimal value)
+        {
+            Reproductor.settings.volume = mtrackVolumen.Value;
+=======
         private void lblCancion_Click(object sender, EventArgs e)
         {
 
@@ -158,6 +163,7 @@ namespace Prueba2
             mtrackEstatus.Value = (int)Reproductor.Ctlcontrols.currentPosition;
             mtrackVolumen.Value = Reproductor.settings.volume;
 
+>>>>>>> main
         }
 
         private void reproductir_Load(object sender, EventArgs e)
