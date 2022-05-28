@@ -88,7 +88,7 @@ namespace Prueba2
         private void button1_Click(object sender, EventArgs e)
         {
 
-            string path = @"C:\Users\hp\Desktop\I semestre 2022\progrmacion\Proyecto 2\Prueba2\Prueba2\bin\Debug\registros.json";
+            string path = @"C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\bin\Debug\registros.json";
             string datos = File.ReadAllText(path);
 
             Root cosa = JsonConvert.DeserializeObject<Root>(path, new RootConverter());

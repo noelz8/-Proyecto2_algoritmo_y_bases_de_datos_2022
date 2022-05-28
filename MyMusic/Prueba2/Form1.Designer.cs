@@ -251,6 +251,7 @@
             this.label9.Size = new System.Drawing.Size(311, 29);
             this.label9.TabIndex = 17;
             this.label9.Text = "Volver a iniciar sesion";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // Form1
             // 

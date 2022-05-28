@@ -33,8 +33,6 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.txtComPassword = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.txtUsuario = new System.Windows.Forms.TextBox();
@@ -52,6 +50,7 @@
             this.label9.Size = new System.Drawing.Size(181, 29);
             this.label9.TabIndex = 28;
             this.label9.Text = "Registrarme";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // label8
             // 
@@ -72,12 +71,13 @@
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(57, 341);
+            this.button2.Location = new System.Drawing.Point(57, 312);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(438, 35);
             this.button2.TabIndex = 26;
             this.button2.Text = "Limpiar";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -86,12 +86,13 @@
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(57, 274);
+            this.button1.Location = new System.Drawing.Point(57, 246);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(438, 35);
             this.button1.TabIndex = 25;
             this.button1.Text = "Iniciar";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // checkBox1
             // 
@@ -105,28 +106,6 @@
             this.checkBox1.Text = "Mostrar Contraseña";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
-            // txtComPassword
-            // 
-            this.txtComPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
-            this.txtComPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtComPassword.Font = new System.Drawing.Font("MS Reference Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtComPassword.Location = new System.Drawing.Point(290, 139);
-            this.txtComPassword.Multiline = true;
-            this.txtComPassword.Name = "txtComPassword";
-            this.txtComPassword.PasswordChar = '*';
-            this.txtComPassword.Size = new System.Drawing.Size(171, 22);
-            this.txtComPassword.TabIndex = 23;
-            this.txtComPassword.TextChanged += new System.EventHandler(this.txtComPassword_TextChanged);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(287, 105);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(134, 16);
-            this.label7.TabIndex = 22;
-            this.label7.Text = "Confirmar contraseña";
-            // 
             // txtPassword
             // 
             this.txtPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
@@ -136,13 +115,13 @@
             this.txtPassword.Multiline = true;
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
-            this.txtPassword.Size = new System.Drawing.Size(171, 22);
+            this.txtPassword.Size = new System.Drawing.Size(187, 39);
             this.txtPassword.TabIndex = 21;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(54, 105);
+            this.label6.Location = new System.Drawing.Point(54, 110);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(76, 16);
             this.label6.TabIndex = 20;
@@ -153,10 +132,10 @@
             this.txtUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
             this.txtUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtUsuario.Font = new System.Drawing.Font("MS Reference Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsuario.Location = new System.Drawing.Point(57, 62);
+            this.txtUsuario.Location = new System.Drawing.Point(57, 59);
             this.txtUsuario.Multiline = true;
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(171, 22);
+            this.txtUsuario.Size = new System.Drawing.Size(207, 36);
             this.txtUsuario.TabIndex = 19;
             // 
             // label5
@@ -178,8 +157,6 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.txtComPassword);
-            this.Controls.Add(this.label7);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtUsuario);
@@ -198,8 +175,6 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.TextBox txtComPassword;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtUsuario;

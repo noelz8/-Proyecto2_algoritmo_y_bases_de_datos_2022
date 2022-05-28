@@ -19,18 +19,23 @@ namespace Prueba2
 
         public class Usuarios
         {
-            //Esta clase segun las guias es la que debe de estar para que guarde en el JSON
-
+            [JsonProperty("Nombre")]
             public string Nombre { get; set; }
+
+            [JsonProperty("Apellidos")]
             public string Apellidos { get; set; }
+
+            [JsonProperty("Edad")]
             public string Edad { get; set; }
+
+            [JsonProperty("Usuario")]
             public string Usuario { get; set; }
+
+            [JsonProperty("Password")]
             public string Password { get; set; }
+
+            [JsonProperty("CPassword")]
             public string CPassword { get; set; }
-
-
-
-
         }
 
         public Form1()
@@ -78,25 +83,46 @@ namespace Prueba2
 
 
                 List<Usuarios> _usuarios = new List<Usuarios>();
-                _usuarios.Add(new Usuarios()
+                
 
+                JsonSerializer serializer = new JsonSerializer();
+                string path = @"C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\Prueba2\Prueba2\bin\Debug\registros.json";
+                //string path = @"D:\registros.json";
+
+
+                if (System.IO.File.Exists(path))
+                {
+                    using (System.IO.StreamReader reader = new System.IO.StreamReader(path))
+                    {
+                        Newtonsoft.Json.JsonReader jsonReader= new Newtonsoft.Json.JsonTextReader(reader);
+                        _usuarios= serializer.Deserialize<List<Usuarios>>(jsonReader);
+                        
+                    }
+                }
+
+                using (System.IO.StreamWriter file=new System.IO.StreamWriter(path, false))
                 {
 
-                    Nombre = txtNombre.Text,
-                    Usuario = txtUsuario.Text,
-                    Apellidos = txtApellidos.Text,
-                    Edad = txtEdad.Text,
-                    Password = txtPassword.Text,
-                    CPassword = txtComPassword.Text
-                });
+                    _usuarios.Add(new Usuarios()
 
+                    {
 
+                        Nombre = txtNombre.Text,
+                        Usuario = txtUsuario.Text,
+                        Apellidos = txtApellidos.Text,
+                        Edad = txtEdad.Text,
+                        Password = txtPassword.Text,
+                        CPassword = txtComPassword.Text
+                    });
 
+                    serializer.Serialize(file, _usuarios);
+                    
+                }
 
-                string json = JsonConvert.SerializeObject(_usuarios.ToArray());
+                //string json = JsonConvert.SerializeObject(_usuarios.ToArray());
 
-                //write string to file
-                System.IO.File.WriteAllText(@"C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Git hub\Prueba2\Prueba2\bin\Debug\registros.json", json);
+                ////write string to file
+                //System.IO.File.WriteAllText(@"C:\Users\hp\Desktop\I semestre 2022\progrmacion\Proyecto 2\Prueba2\Prueba2\bin\Debug\registros.json", json);
 
                 txtNombre.Text = "";
                 txtUsuario.Text = "";
@@ -141,6 +167,12 @@ namespace Prueba2
             txtPassword.Text = "";
             txtComPassword.Text = "";
             txtUsuario.Focus();
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+            new Login().Show();
+            this.Hide();
         }
     }
 }
