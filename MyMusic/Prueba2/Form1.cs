@@ -89,7 +89,7 @@ namespace Prueba2
 
                 JsonSerializer serializer = new JsonSerializer();//se declara esta funcion para poder serializar la lista a JSON
                 //Se usa el string path para darle la ruta donde se encuentra el archivo JSON, en este caso "registros.json"
-                string path = @"C:\Users\hp\Documents\GitHub\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\bin\Debug\registros.json";
+                string path = @"C:\Users\Personal\Desktop\Trabajos del Tec\3 y 4 semstre\Datos\Repositorios de datos\-Proyecto2_algoritmo_y_bases_de_datos_2022\MyMusic\Prueba2\bin\Debug\registros.json";
                 //string path = @"D:\registros.json";
 
 

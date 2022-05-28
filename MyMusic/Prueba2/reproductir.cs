@@ -1,4 +1,5 @@
-﻿using System;
+﻿//imports necesarios para su funcionamiento
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,6 +15,7 @@ namespace Prueba2
 {
     public partial class reproductir : Form
     {
+        //globales para su uso
         bool Play = false;
         string[] ArchivosMP3;
         string[] rutadeArchivosMP3;
@@ -21,13 +23,15 @@ namespace Prueba2
         {
             InitializeComponent();
         }
-
+        //botton para añadir canciones
         private void btnAdjuntar_Click(object sender, EventArgs e)
         {
+            //creacion de una variable para la busqueda de archivos
             OpenFileDialog CajaDeBusquedaDeArchivos = new OpenFileDialog();
             CajaDeBusquedaDeArchivos.Multiselect = true;
             if (CajaDeBusquedaDeArchivos.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
+                //varibles para guardar las canciones y sus nombres
                 ArchivosMP3 = CajaDeBusquedaDeArchivos.SafeFileNames;
                 rutadeArchivosMP3 = CajaDeBusquedaDeArchivos.FileNames;
                 foreach (var ArchivosMP3 in ArchivosMP3)
@@ -41,14 +45,15 @@ namespace Prueba2
 
             }
         }
-
+        //list box que contendra las canciones
         private void lstCanciones_SelectedIndexChanged(object sender, EventArgs e)
         {
             Reproductor.URL = rutadeArchivosMP3[lstCanciones.SelectedIndex];
             lblCancion.Text = ArchivosMP3[lstCanciones.SelectedIndex];
 
         }
-
+        
+        //botton para reproducir la musica
         private void btnPlay_Click(object sender, EventArgs e)
         {
             switch (Play)
@@ -66,14 +71,14 @@ namespace Prueba2
 
             }
         }
-
+        // botton para parar la musica y reiniciarla
         private void btnStop_Click(object sender, EventArgs e)
         {
             Reproductor.Ctlcontrols.stop();
             btnPlay.Image = Properties.Resources.play;
             Play = false;
         }
-
+        //actualizador de datos
         private void ActualizarDatosTrack()
         {
             if (Reproductor.playState == WMPLib.WMPPlayState.wmppsPlaying)
@@ -98,12 +103,12 @@ namespace Prueba2
         {
             ActualizarDatosTrack();
         }
-
+        //barra para el control de sonido de la musica
         private void trackBar2_Scroll(object sender, EventArgs e)
         {
             Reproductor.settings.volume = mtrackVolumen.Value;
         }
-
+        //creacion de sockets 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
             string toSend = "Hello!";
@@ -147,12 +152,17 @@ namespace Prueba2
         {
 
         }
-
+        // timer que funcionara en conjunto con actualizar datos para la barra de avance de la cancion
         private void timer1_Tick_1(object sender, EventArgs e)
         {
             ActualizarDatosTrack();
             mtrackEstatus.Value = (int)Reproductor.Ctlcontrols.currentPosition;
             mtrackVolumen.Value = Reproductor.settings.volume;
+
+        }
+
+        private void reproductir_Load(object sender, EventArgs e)
+        {
 
         }
     }
